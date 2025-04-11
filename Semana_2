@@ -1,1 +1,21 @@
-import panda as pd
+# Organização de Estudos Semanais
+# Semana 2: POO
+# Exercícios
+
+# Problema Prático 8.1
+# Acrescente o método getx() à classe Ponto; esse método não aceita entrada e retorna a coordenada x do objeto Ponto que chama o método.
+# >>> a.getx()
+# 3
+# Resposta:  
+class Ponto:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    def getx(self):
+        return self.x
+    def gety(self):
+        return self.y
+      
+a = Ponto (3,4)
+print(a.getx())
+print(a.gety())
