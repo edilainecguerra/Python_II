@@ -19,3 +19,16 @@ class Ponto:
 a = Ponto (3,4)
 print(a.getx())
 print(a.gety())
+
+# Problema Prático 8.2
+
+# Comece definindo a classe Teste e depois criando duas instâncias de Teste no seu shell do interpretador:
+#>>> class Teste:
+#     versão = 1.02
+# >>> a = Teste()
+# >>> b = Teste()
+
+# A classe Teste tem apenas um atributo, a variável de classe versão, que se refere ao valor float 1.02.
+
+# (a)Desenhe os namespaces associados à classe e aos dois objetos, os nomes – se houver – neles contidos e os valores aos quais os nomes se referem.
+# (b)Execute essas instruções e preencha os pontos de interrogação:
