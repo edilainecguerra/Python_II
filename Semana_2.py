@@ -100,5 +100,3 @@ print(p.x)
 print(p.y) 
 
 print(Ponto.y)
-
-# teste
