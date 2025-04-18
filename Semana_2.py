@@ -100,3 +100,7 @@ print(p.x)
 print(p.y) 
 
 print(Ponto.y)
+
+#SEMANA 3
+# FUNÇÕES RECURSIVAS
+#
