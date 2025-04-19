@@ -56,4 +56,7 @@ n = 6
 n = 15
 print(f'0{n}-ésimo termo de Fibonacci é: {fibonacci(n)}')
 
+# Recursão II
+#Funções Recursivas e Funções Iterativas
+# As funções recursivas costumam apresentar maior lentidão
 
