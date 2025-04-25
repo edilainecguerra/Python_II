@@ -149,6 +149,38 @@ fila.atender()
 fila.exibir_filas()
 
 
+## LISTAS
+# Generalização de pilhas e filas
+# Variações 
+#4 maneiras de implementar listas
+# Sequencial ou Encadeada
+# Estática ou Dinâmica
+
+# Sequêncial: os elementos estarão um ao lado do outro - é possível localizar por índice: 
+l = [1,4,5,6,9]
+print (l[1])
+
+# Encadeada: os elementos não estão necessariamente em posições adjacentes
+
+matriz = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+print(matriz[1][1])
+
+# Alocação dinâmica: permite gerenciar melhor a memória
+# Alocação estática: a locação pe feita apenas uma vez, porém a memória pode ser alocada mesmo sem uso
+
+# Outras variações de lista
+# listas ordenanas sort() e não ordenadas; listas lineares e não lineares; listas homogêneas e heterogêneas 
 
 
-        
+# Árvores
+# Motivação: inúmeros problemas podem ser tratados por meio de árvores: tratamento computacional mais eficiente para estruturas mais complexas. 
+# são menos complexas que grafos
+
+# Fórmula: Árvores Binárias de Busca (2**N -1) - o "N" representa o nível de busca
+
+r = 2**30-1
+print(r)

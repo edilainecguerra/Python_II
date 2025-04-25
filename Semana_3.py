@@ -60,3 +60,29 @@ print(f'0{n}-ésimo termo de Fibonacci é: {fibonacci(n)}')
 #Funções Recursivas e Funções Iterativas
 # As funções recursivas costumam apresentar maior lentidão
 
+# Memoização
+# Memoização é uma técnica de otimização em programação que consiste em armazenar os resultados de 
+# chamadas de funções para evitar recalcular esses resultados quando os mesmos argumentos forem usados novamente.
+#  Em outras palavras, a memoização funciona como uma espécie de cache para funções, onde os resultados são armazenados e
+#  reutilizados em vez de serem recalculados.
+
+def f(n): 
+    if n < 2: 
+        return n 
+    else: 
+        return f(n-1) + f(n-2) 
+ 
+print(f(6)) 
+
+def f(v, i): 
+    if i == 0: 
+        return i 
+    else: 
+        j = f(v, i - 1) 
+        if v[i] > v[j]: 
+            return i 
+        else: 
+            return j 
+ 
+l = [5,4,6,8,1,12] 
+print(f(l, len(l) - 1)) 
