@@ -82,7 +82,3 @@ def intercala(v, ini, meio, fim):
 
 merge_sort(v,0, len(v)-1)
 print(v)
-
-
-
-
